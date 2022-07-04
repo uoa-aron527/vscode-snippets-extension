@@ -1,0 +1,13 @@
+{
+    "Start-up C code": {
+        "prefix": "!c",
+        "body": [
+            "#include <stdio.h>",
+            "",
+            "int main() {",
+            "   printf(${1:Hello World!});",
+            "   return 0;",
+            "}"
+        ]
+    }
+}
