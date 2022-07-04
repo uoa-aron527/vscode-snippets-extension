@@ -20,6 +20,10 @@
             {
                 "language": "javascript",
                 "path": "./snippets/jssnippets.json"
+            },
+            {
+                "language": "java",
+                "path": "./snippets/javasnippets.json"
             }
         ]
     }

@@ -1,0 +1,16 @@
+{
+    "Create the main() method": {
+        "prefix": "svm",
+        "body": [
+            "public static void main(String args[]) {",
+            "   ${1}",
+            "}"
+        ]
+    },
+    "Print to terminal": {
+        "prefix": "!pr",
+        "body": [
+            "System.out.println(${1});"
+        ]
+    }
+}
