@@ -1,0 +1,8 @@
+{
+    "Printing to console": {
+        "prefix": "!pr",
+        "body": [
+            "console.log(${1:Body})"
+        ]
+    }
+}

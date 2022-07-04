@@ -2,7 +2,13 @@
     "name": "shortify",
     "displayName": "Shortify",
     "description": "Creates short keybinds for writing large code blocks",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "aryan",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uoa-aron527/vscode-snippets-extension"
+    },
+    "icon": "icon.jpg",
     "engines": {
         "vscode": "^1.68.0"
     },
@@ -13,7 +19,7 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/jssnippets.json"
             }
         ]
     }
