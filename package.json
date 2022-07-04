@@ -1,0 +1,20 @@
+{
+    "name": "shortify",
+    "displayName": "Shortify",
+    "description": "Creates short keybinds for writing large code blocks",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
